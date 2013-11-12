@@ -1,0 +1,456 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+body {
+   background: url('images/darknoise.png');
+   background-repeat: repeat;
+   color: #000000;
+   font-family: verdana;
+   font-size: 12px;
+}
+table {
+   border-collapse: collapse;
+}
+
+/*  Console Style Starts  */
+.console {
+   height: 540px;
+   width: 900px;
+   background-color: #f0f0f0;
+   background-image: url('images/bg.jpg');
+   border: 5px solid #609fd0;
+   border-top: 0px none #609fd0;
+}
+.consoleminimenu {
+   height: 22px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   border: 0px solid #FFFFFF;
+   border-bottom: 1px solid #b9b9b9;
+}
+.consolemenu {
+   height: 32px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   border: 0px solid #FFFFFF;
+   border-bottom: 1px solid #b9b9b9;
+}
+.consoletitle {
+   height: 30px;
+   background: #609fd0;
+}
+.consoletitletable {
+   width: 100%;
+   height: 30px;
+   font-size: 14px;
+}
+.consoletitletd {
+   width: 100px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.consolebody {
+   font-size: 11px
+   padding: 20px;
+}
+/*  Console Style Ends  */
+
+/*  Menu Style Starts  */
+.menutable {
+   height: 32px;
+}
+.menuoverviewtd {
+   height: 32px;
+   width: 87px;
+}
+.menuoverview {
+   height: 30px;
+   width: 87px;
+   background: url('images/menu_overview.png');
+   border: 0px solid #FFFFFF;
+}
+.menuoverview:hover {
+   height: 30px;
+   width: 87px;
+   background: url('images/menu_overview_hover.png');
+   border: 0px solid #FFFFFF;
+}
+.menuoverviewactive {
+   height: 30px;
+   width: 87px;
+   background: url('images/menu_overview_active.png');
+   border: 0px solid #FFFFFF;
+}
+.menusendtd {
+   height: 32px;
+   width: 92px;
+}
+.menusend {
+   height: 30px;
+   width: 92px;
+   background: url('images/menu_send.png');
+   border: 0px solid #FFFFFF;
+}
+.menusend:hover {
+   height: 30px;
+   width: 92px;
+   background: url('images/menu_send_hover.png');
+   border: 0px solid #FFFFFF;
+}
+.menusendactive {
+   height: 30px;
+   width: 92px;
+   background: url('images/menu_send_active.png');
+   border: 0px solid #FFFFFF;
+}
+.menureceivetd {
+   height: 32px;
+   width: 106px;
+}
+.menureceive {
+   height: 30px;
+   width: 106px;
+   background: url('images/menu_receive.png');
+   border: 0px solid #FFFFFF;
+}
+.menureceive:hover {
+   height: 30px;
+   width: 106px;
+   background: url('images/menu_receive_hover.png');
+   border: 0px solid #FFFFFF;
+}
+.menureceiveactive {
+   height: 30px;
+   width: 106px;
+   background: url('images/menu_receive_active.png');
+   border: 0px solid #FFFFFF;
+}
+.menutransactiontd {
+   height: 32px;
+   width: 101px;
+}
+.menutransaction {
+   height: 30px;
+   width: 101px;
+   background: url('images/menu_transaction.png');
+   border: 0px solid #FFFFFF;
+}
+.menutransaction:hover {
+   height: 30px;
+   width: 101px;
+   background: url('images/menu_transaction_hover.png');
+   border: 0px solid #FFFFFF;
+}
+.menutransactionactive {
+   height: 30px;
+   width: 101px;
+   background: url('images/menu_transaction_active.png');
+   border: 0px solid #FFFFFF;
+}
+.menuaddressbooktd {
+   height: 32px;
+   width: 106px;
+}
+.menuaddressbook {
+   height: 30px;
+   width: 106px;
+   background: url('images/menu_addressbook.png');
+   border: 0px solid #FFFFFF;
+}
+.menuaddressbook:hover {
+   height: 30px;
+   width: 106px;
+   background: url('images/menu_addressbook_hover.png');
+   border: 0px solid #FFFFFF;
+}
+.menuaddressbookactive {
+   height: 30px;
+   width: 106px;
+   background: url('images/menu_addressbook_active.png');
+   border: 0px solid #FFFFFF;
+}
+.menuexporttd {
+   height: 32px;
+   width: 73px;
+}
+.menuexport {
+   height: 30px;
+   width: 73px;
+   background: url('images/menu_export.png');
+   border: 0px solid #FFFFFF;
+}
+.menuexport:hover {
+   height: 30px;
+   width: 73px;
+   background: url('images/menu_export_hover.png');
+   border: 0px solid #FFFFFF;
+}
+.menuexportfaded {
+   height: 30px;
+   width: 73px;
+   background: url('images/menu_export_faded.png');
+   border: 0px solid #FFFFFF;
+}
+/*  Menu Style Ends  */
+
+/*  addressbook Style Ends  */
+.buttonnewaddress {
+   height: 22px;
+   width: 89px;
+   background: url('images/button_new_address.png');
+   border: 0px solid #FFFFFF;
+}
+.addressbookdiv {
+   background: #FFFFFF;
+   width: 100%;
+   height: 380px;
+   border: 1px solid #828790;
+}
+.addressbookscroll {
+   width: 100%;
+   height: 350px;
+   overflow-y: scroll;
+}
+.addressbooktable {
+   width: 100%;
+   background: #FFFFFF;
+   border: 1px solid #d8d8d8;
+   font-size: 12px;
+}
+#rightside {
+   width: 380px;
+}
+.addressbooktdt {
+   height: 24px;
+   background: #FFFFFF;
+   border: 1px solid #d8d8d8;
+}
+.addressbooktdblock {
+   height: 24px;
+   width: 20px;
+   background: #FFFFFF;
+   border: 1px solid #d8d8d8;
+}
+.addressbooktda {
+   height: 30px;
+   background: #FFFFFF;
+   border: 1px solid #d8d8d8;
+   padding-left: 4px;
+}
+.addressbooktdb {
+   height: 30px;
+   background: #f6f6f6;
+   border: 1px solid #d8d8d8;
+   padding-left: 4px;
+}
+/*  addressbook Style Ends  */
+
+/*  addressbook Style Starts  */
+.overviewtable {
+   width: 100%;
+}
+.overviewtdr {
+   width: 400px;
+}
+/*  addressbook Style Ends  */
+
+/*  send Style Starts  */
+.buttonsend {
+   height: 22px;
+   width: 148px;
+   background: url('images/button_send.png');
+   border: 0px solid #FFFFFF;
+}
+.senddiv {
+   width: 100%;
+   height: 380px;
+   border: 1px solid #828790;
+}
+/*  send Style End  */
+
+/*  tx Style Start  */
+.txdiv {
+   width: 100%;
+   height: 380px;
+   background: #FFFFFF;
+   border: 1px solid #828790;
+   overflow-y: scroll;
+}
+.txtdt {
+   height: 24px;
+   background: #FFFFFF;
+   border: 1px solid #d8d8d8;
+   font-size: 11px;
+}
+.txtda {
+   height: 30px;
+   background: #FFFFFF;
+   border: 1px solid #d8d8d8;
+   font-size: 11px;
+   padding-left: 4px;
+}
+.txtdb {
+   height: 30px;
+   background: #f6f6f6;
+   border: 1px solid #d8d8d8;
+   font-size: 11px;
+   padding-left: 4px;
+}
+/*  tx Style End  */
+
+/*  api style start  */
+.apidiv {
+   width: 100%;
+   height: 300px;
+   border: 1px solid #828790;
+   margin-top: 10px;
+   overflow-y: scroll;
+}
+/*  api style end  */
+
+/*  faucet style start  */
+.coin_box_rail {
+   border-top: 4px solid #828790;
+   height: 125px;
+}
+.coin_box {
+   width: 100%;
+   height: 0px;
+   margin: 0px;
+}
+.coin {
+   width: 88px;
+   height: 105px;
+   position: relative;
+   top: -5px;
+   left: 10px;
+}
+.targetnan {
+   width: 88px;
+   height: 105px;
+   background: url('images/target_nan.png');
+   border: 0px solid #FFFFFF;
+}
+.targetmec {
+   width: 88px;
+   height: 105px;
+   background: url('images/target_mec.png');
+   border: 0px solid #FFFFFF;
+}
+/*  faucet style end  */
+
+/*  wallet menu style start  */
+#wallet-menu {
+   position: absolute;
+   width: 120px;
+   background: #f0f0f0;
+   border: 1px solid #b9b9b9;
+   color: #000000;
+   font-size: 11px;
+   display: none;
+   margin-top: 4px;
+   z-index: 999999;
+   -moz-box-shadow: 3px 3px 4px #444;
+   -webkit-box-shadow: 3px 3px 4px #444;
+   box-shadow: 3px 3px 4px #444;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+   filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
+}
+.wallet-menutd {
+   height: 18px;
+   width: 120px;
+   background: #f0f0f0;
+   padding: 6px;
+}
+/*  faucet menu style end  */
+
+/*  faucet menu style start  */
+#faucet-menu {
+   position: absolute;
+   width: 120px;
+   background: #f0f0f0;
+   border: 1px solid #b9b9b9;
+   color: #000000;
+   font-size: 11px;
+   display: none;
+   margin-top: 4px;
+   z-index: 999999;
+   -moz-box-shadow: 3px 3px 4px #444;
+   -webkit-box-shadow: 3px 3px 4px #444;
+   box-shadow: 3px 3px 4px #444;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+   filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
+}
+.faucet-menutd {
+   height: 18px;
+   width: 120px;
+   background: #f0f0f0;
+   padding: 6px;
+}
+/*  faucet menu style end  */
+
+/*  setting menu style start  */
+#settings-menu {
+   position: absolute;
+   width: 120px;
+   background: #f0f0f0;
+   border: 1px solid #b9b9b9;
+   color: #000000;
+   font-size: 11px;
+   display: none;
+   margin-top: 4px;
+   z-index: 999999;
+   -moz-box-shadow: 3px 3px 4px #444;
+   -webkit-box-shadow: 3px 3px 4px #444;
+   box-shadow: 3px 3px 4px #444;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+   filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
+}
+.settings-menutd {
+   height: 18px;
+   width: 120px;
+   background: #f0f0f0;
+   padding: 6px;
+}
+/*  setting menu style end  */
+
+/*  chat menu style start  */
+#chat-menu {
+   position: absolute;
+   width: 120px;
+   background: #f0f0f0;
+   border: 1px solid #b9b9b9;
+   color: #000000;
+   font-size: 11px;
+   display: none;
+   margin-top: 4px;
+   z-index: 999999;
+   -moz-box-shadow: 3px 3px 4px #444;
+   -webkit-box-shadow: 3px 3px 4px #444;
+   box-shadow: 3px 3px 4px #444;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+   filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
+}
+.chat-menutd {
+   height: 18px;
+   width: 120px;
+   background: #f0f0f0;
+   padding: 6px;
+}
+/*  chat menu style end  */
+
+/*  tarde menu style start  */
+.tradescroll {
+   width: 100%;
+   height: 210px;
+   background: #FFFFFF;
+   border: 1px solid #d8d8d8;
+   overflow-y: scroll;
+}
+.tradetable {
+   background: #FFFFFF;
+   border: 1px solid #d8d8d8;
+   font-size: 12px;
+}
+/*  faucet menu style end  */
